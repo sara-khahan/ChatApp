@@ -1,0 +1,84 @@
+.container{
+
+    display: flex;
+    flex-direction: row;
+    height: 97vh;
+   
+}
+.messageContainer{
+    box-sizing: border-box;
+    height: 90%;
+    text-align: start;
+    padding: 10px;
+
+}
+.sendMessage{
+ height: 10%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ text-align: center;
+ padding: 10px;
+ box-sizing: border-box;
+ /* border: 2px rgb(27, 144, 80) solid; */
+
+}
+.sendMessage input{
+ width: 90%;
+ border: none;
+ border-radius: 5px;
+ outline: none;
+}
+.sendMessage button{
+    width: 9%;
+    background: rgb(27, 144, 80);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.chatBox{
+    flex: 6;
+    background:rgb(203, 210, 203) ;
+}
+
+.contactContainer{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.myInfo{
+    box-sizing: border-box;
+    height: 20% ;
+    width: 100%;
+    background: #fff;
+    /* border: 2px solid #3333; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: x-large;    
+
+}
+.contact{
+ background: #ffff;
+ height: 80%;
+ border: 2px solid #3333;
+ 
+
+}
+.contact div{
+    height: 30px;
+    margin-top: 2px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(92, 92, 113);
+    cursor: pointer;
+
+    
+}
+.contact div:hover{
+    background: rgba(170, 170, 170, 0.2);
+}

@@ -1,0 +1,27 @@
+.messageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.me{
+  background-color: #3333;
+  font-size: large;
+}
+.right{
+    align-items: flex-end;
+}
+
+.another{
+  background: #fff;
+  font-size: large;
+}
+
+.left{
+  align-items: flex-start;
+}
+.Message{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
